@@ -1,4 +1,4 @@
 ---
 # vars file for molecule
-_molecule_packages:
+molecule_packages:
   - molecule
