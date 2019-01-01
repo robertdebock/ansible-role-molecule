@@ -8,6 +8,14 @@
         molecule_package_state == "latest" or
         molecule_package_state == "absent"
 
+- name: install requirements
+  package:
+    name: "{{ molecule_requirements }}"
+    state: "{{ molecule_package_state }}"
+  register: molecule_install_requirements
+  until: molecule_install_requirements is succeeded
+  retries: 3
+
 - name: install molecule
   pip:
     name: "{{ molecule_packages }}"
