@@ -2,7 +2,7 @@
 # vars file for molecule
 _molecule_requirements:
   default: []
-  ArchLinux:
+  Archlinux:
     - bash
   Alpine:
     - linux-headers
