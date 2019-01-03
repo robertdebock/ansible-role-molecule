@@ -8,6 +8,8 @@ _molecule_requirements:
     - linux-headers
   CentOS:
     - python-devel
+  Fedora:
+    - python-devel
   openSUSE Leap:
     - python-devel
   openSUSE Tumbleweed:
