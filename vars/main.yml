@@ -9,7 +9,7 @@ _molecule_requirements:
   CentOS:
     - python-devel
   Fedora:
-    - python-devel
+    - python3-devel
   openSUSE Leap:
     - python-devel
   openSUSE Tumbleweed:
