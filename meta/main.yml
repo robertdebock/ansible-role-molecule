@@ -2,7 +2,7 @@
 galaxy_info:
   author: Robert de Bock
   role_name: molecule
-  description: Install molecule on your system.
+  description: Install Molecule on your system.
   license: Apache-2.0
   company: none
   min_ansible_version: 2.6
