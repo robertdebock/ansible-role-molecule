@@ -34,8 +34,10 @@ platforms:
     image: opensuse:leap
   - name: molecule-opensuse-tumbleweed
     image: opensuse:tumbleweed
-  - name: molecule-ubuntu-artful
-    image: ubuntu:artful
+  - name: molecule-ubuntu-latest
+    image: ubuntu:latest
+  - name: molecule-ubuntu-rolling
+    image: ubuntu:rolling
   - name: molecule-ubuntu-devel
     image: ubuntu:devel
 provisioner:
