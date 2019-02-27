@@ -8,12 +8,18 @@ _molecule_requirements:
     - linux-headers
   CentOS:
     - python-devel
+    - openssl-devel
+  Debian:
+    - libssl-dev
   Fedora:
     - python3-devel
+    - openssl-devel
   openSUSE Leap:
     - python-devel
   openSUSE Tumbleweed:
     - python-devel
+  Ubuntu:
+    - libssl-dev
 
 molecule_requirements: "{{ _molecule_requirements[ansible_distribution] | default(_molecule_requirements['default']) }}"
 

@@ -20,6 +20,7 @@
   pip:
     name: "{{ molecule_packages }}"
     state: "{{ molecule_package_state }}"
+    extra_args: "--ignore-installed PyYAML"
   register: molecule_install_molecule
   until: molecule_install_molecule is succeeded
   retries: 3
