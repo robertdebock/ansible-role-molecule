@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: molecule-opensuse-leap
     image: opensuse:leap
-  - name: molecule-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: molecule-ubuntu-latest
     image: ubuntu:latest
   - name: molecule-ubuntu-rolling
