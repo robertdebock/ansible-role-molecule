@@ -16,8 +16,6 @@ _molecule_requirements:
     - openssl-devel
   openSUSE Leap:
     - python-devel
-  openSUSE Tumbleweed:
-    - python-devel
   Ubuntu:
     - libssl-dev
 
