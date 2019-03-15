@@ -22,7 +22,6 @@ This example is taken from `molecule/default/playbook.yml`:
     - role: robertdebock.epel
     - role: robertdebock.python_pip
     - role: robertdebock.molecule
-
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -34,10 +33,6 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for molecule
-
-# To update packages this role places on the system, set `molecule_package_state` to `latest`.
-molecule_package_state: present
-
 ```
 
 Requirements
