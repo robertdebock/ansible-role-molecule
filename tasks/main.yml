@@ -1,9 +1,5 @@
 ---
 # tasks file for molecule
-- name: test veriables and environment
-  assert:
-    that:
-
 - name: install requirements
   package:
     name: "{{ molecule_requirements }}"
