@@ -23,8 +23,3 @@ molecule_requirements: "{{ _molecule_requirements[ansible_distribution] | defaul
 
 molecule_packages:
   - molecule
-
-# _molecule_extra_args:
-#   Ubuntu: "--ignore-installed entrypoints"
-#
-# molecule_extra_args: "{{ _molecule_extra_args[ansible_distribution] | default(omit) }}"
