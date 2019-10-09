@@ -48,6 +48,9 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for molecule
+# If you need to give extra options to pip, use `molecule_extra_args`. For
+# example:
+# molecule_extra_args: "--user"
 ```
 
 Requirements
@@ -72,7 +75,6 @@ This role uses the following modules:
 ---
 - package
 - pip
-- stat
 ```
 
 Context
