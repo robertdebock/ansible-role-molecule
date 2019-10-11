@@ -1,0 +1,4 @@
+---
+exceptions:
+  - variation: CentOS 7
+    reason: "error in click-completion setup command: 'install_requires' must be a string or list of strings containing valid project/version requirement specifiers"

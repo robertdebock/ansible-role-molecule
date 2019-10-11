@@ -6,8 +6,8 @@ molecule
 
 Install Molecule on your system.
 
-<img src="https://img.shields.io/ansible/role/d/"/>
-<img src="https://img.shields.io/ansible/quality/"/>
+<img src="https://img.shields.io/ansible/role/d/35945"/>
+<img src="https://img.shields.io/ansible/quality/35945"/>
 
 Example Playbook
 ----------------
@@ -109,6 +109,14 @@ This role has been tested against the following distributions and Ansible versio
 
 A single star means the build may fail, it's marked as an experimental build.
 
+Exceptions
+----------
+
+Some variarations of the build matrix do not work. These are the variations and reasons why the build won't work:
+
+| variation                 | reason                 |
+|---------------------------|------------------------|
+| CentOS 7 | error in click-completion setup command: 'install_requires' must be a string or list of strings containing valid project/version requirement specifiers |
 
 
 
