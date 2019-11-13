@@ -83,8 +83,6 @@ This role has been tested on these [container images](https://hub.docker.com/):
 
 |container|tag|allow_failures|
 |---------|---|--------------|
-|amazonlinux|1|no|
-|amazonlinux|latest|no|
 |alpine|latest|no|
 |alpine|edge|yes|
 |debian|unstable|yes|
@@ -109,6 +107,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 | variation                 | reason                 |
 |---------------------------|------------------------|
 | CentOS 7 | error in click-completion setup command: 'install_requires' must be a string or list of strings containing valid project/version requirement specifiers |
+| amazonlinux | Dependency (python_pip) not available |
 
 
 
