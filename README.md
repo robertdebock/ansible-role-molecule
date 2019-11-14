@@ -91,7 +91,6 @@ This role has been tested on these [container images](https://hub.docker.com/):
 |fedora|latest|no|
 |fedora|rawhide|yes|
 |opensuse|latest|no|
-|ubuntu|latest|no|
 
 This role has been tested on these Ansible versions:
 
@@ -108,6 +107,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 |---------------------------|------------------------|
 | CentOS 7 | error in click-completion setup command: 'install_requires' must be a string or list of strings containing valid project/version requirement specifiers |
 | amazonlinux | Dependency (python_pip) not available |
+| ubuntu | Not idempotent on install stratis |
 
 
 
