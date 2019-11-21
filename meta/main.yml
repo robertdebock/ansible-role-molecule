@@ -31,7 +31,6 @@ galaxy_info:
     - molecule
     - archlinux
     - centos
-    - debian
     - el
     - fedora
     - opensuse
