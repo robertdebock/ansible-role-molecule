@@ -111,7 +111,6 @@ Some variarations of the build matrix do not work. These are the variations and 
 | ubuntu | Not idempotent on install stratis |
 
 
-
 Testing
 -------
 
