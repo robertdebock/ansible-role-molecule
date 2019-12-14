@@ -31,6 +31,5 @@ galaxy_info:
     - molecule
     - archlinux
     - centos
-    - rhel
 
 dependencies: []
