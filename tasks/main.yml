@@ -7,7 +7,7 @@
   register: molecule_install_requirements
   until: molecule_install_requirements is succeeded
   retries: 3
-  become: true
+  become: yes
 
 - name: install molecule
   pip:
