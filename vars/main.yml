@@ -1,5 +1,6 @@
 ---
 # vars file for molecule
+
 _molecule_requirements:
   default: []
   Alpine:
