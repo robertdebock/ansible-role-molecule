@@ -7,9 +7,6 @@
   package:
     name: "{{ molecule_requirements }}"
     state: present
-  register: molecule_install_requirements
-  until: molecule_install_requirements is succeeded
-  retries: 3
   become: yes
 
 - name: install molecule
@@ -17,6 +14,3 @@
     name: molecule
     state: present
     extra_args: "{{ molecule_extra_args | default(omit) }}"
-  register: molecule_install_molecule
-  until: molecule_install_molecule is succeeded
-  retries: 3
