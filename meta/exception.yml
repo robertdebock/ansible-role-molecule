@@ -4,5 +4,5 @@ exceptions:
     reason: "error in click-completion setup command: 'install_requires' must be a string or list of strings containing valid project/version requirement specifiers"
   - variation: amazonlinux
     reason: Dependency (python_pip) not available
-  - variation: ubuntu
-    reason: "Not idempotent on install stratis"
+  - variation: opensuse
+    reason: "UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 13: ordinal not in range(128)"

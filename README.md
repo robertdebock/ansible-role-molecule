@@ -41,7 +41,7 @@ For verification `molecule/resources/verify.yml` run after the role has been app
 - name: Verify
   hosts: all
   become: yes
-  gather_facts: yes
+  gather_facts: no
 
   tasks:
     - name: check if connection still works
@@ -95,7 +95,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |el|8|
 |debian|buster, bullseye|
 |fedora|31, 32|
-|opensuse|all|
 |ubuntu|focal|
 
 The minimum version of Ansible required is 2.8 but tests have been done to:
@@ -112,7 +111,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 |---------------------------|------------------------|
 | CentOS 7 | error in click-completion setup command: 'install_requires' must be a string or list of strings containing valid project/version requirement specifiers |
 | amazonlinux | Dependency (python_pip) not available |
-| ubuntu | Not idempotent on install stratis |
+| opensuse | UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 13: ordinal not in range(128) |
 
 
 ## [Testing](#testing)
