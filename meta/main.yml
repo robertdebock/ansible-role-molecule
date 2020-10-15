@@ -28,6 +28,5 @@ galaxy_info:
 
   galaxy_tags:
     - molecule
-    - centos
 
 dependencies: []
