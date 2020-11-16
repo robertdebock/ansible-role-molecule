@@ -1,7 +1,0 @@
----
-- name: test if molecule_extra_args is set correctly
-  assert:
-    that:
-    quiet: yes
-  when:
-    - molecule_extra_args is defined
