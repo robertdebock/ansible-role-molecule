@@ -1,6 +1,6 @@
 ---
 exceptions:
-  - variation: CentOS 7
+  - variation: centos:7
     reason: "install_requires' must be a string or list of strings containing valid project/version requirement specifiers"
   - variation: amazonlinux
     reason: Dependency (python_pip) not available

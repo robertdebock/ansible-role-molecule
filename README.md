@@ -95,7 +95,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 
 | variation                 | reason                 |
 |---------------------------|------------------------|
-| CentOS 7 | install_requires' must be a string or list of strings containing valid project/version requirement specifiers |
+| centos:7 | install_requires' must be a string or list of strings containing valid project/version requirement specifiers |
 | amazonlinux | Dependency (python_pip) not available |
 | opensuse | UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 13: ordinal not in range(128) |
 
