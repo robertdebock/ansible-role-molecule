@@ -77,7 +77,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 
 |container|tags|
 |---------|----|
-|alpine|all|
 |el|8|
 |debian|buster, bullseye|
 |fedora|all|
@@ -98,6 +97,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 | centos:7 | install_requires' must be a string or list of strings containing valid project/version requirement specifiers |
 | amazonlinux | Dependency (python_pip) not available |
 | opensuse | UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 13: ordinal not in range(128) |
+| alpine | error: [Errno 2] No such file or directory: 'cargo' |
 
 
 If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-molecule/issues)

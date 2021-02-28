@@ -6,3 +6,5 @@ exceptions:
     reason: Dependency (python_pip) not available
   - variation: opensuse
     reason: "UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 13: ordinal not in range(128)"
+  - variation: alpine
+    reason: "error: [Errno 2] No such file or directory: 'cargo'"
