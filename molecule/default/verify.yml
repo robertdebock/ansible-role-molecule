@@ -5,5 +5,6 @@
   gather_facts: no
 
   tasks:
-    - name: check if connection still works
-      ansible.builtin.ping:
+    - name: Check if molecule returns a version
+      ansible.builtin.command:
+        cmd: molecule --version
