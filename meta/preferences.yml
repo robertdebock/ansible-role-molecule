@@ -1,0 +1,5 @@
+---
+
+tox_ansible_versions:
+  - 6
+  - 7
