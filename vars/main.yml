@@ -12,5 +12,6 @@ _molecule_requirements:
     - ansible
   Suse:
     - python3-devel
+    - ansible
 
 molecule_requirements: "{{ _molecule_requirements[ansible_os_family] | default(_molecule_requirements['default']) }}"
