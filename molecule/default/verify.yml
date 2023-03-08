@@ -8,3 +8,5 @@
     - name: Check if molecule returns a version
       ansible.builtin.command:
         cmd: molecule --version
+      environment:
+        PATH: "/bin:/usr/bin:/usr/local/bin"

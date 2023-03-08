@@ -29,20 +29,18 @@ jobs:
       fail-fast: false
       matrix:
         config:
+          - image: "alpine"
+            tag: "latest"
           - image: "enterpriselinux"
             tag: "8"
-          - image: "debian"
-            tag: "latest"
-          - image: "debian"
-            tag: "bookworm"
           - image: "fedora"
             tag: "36"
           - image: "fedora"
             tag: "latest"
           - image: "fedora"
             tag: "rawhide"
-          - image: "ubuntu"
-            tag: "focal"
+          - image: "opensuse"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v3

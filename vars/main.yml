@@ -6,11 +6,10 @@ _molecule_requirements:
   Alpine:
     - linux-headers
     - rust
-  Debian:
-    - libssl-dev
   RedHat:
     - python3-devel
     - openssl-devel
+    - ansible
   Suse:
     - python3-devel
 
