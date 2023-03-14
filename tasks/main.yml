@@ -11,11 +11,3 @@
   ansible.builtin.pip:
     name: molecule[ansible-core,docker,lint]
     extra_args: "{{ molecule_extra_args | default(omit) }}"
-  when:
-    - ansible_os_family != "Debian"
-
-- name: Install molecule (package)
-  ansible.builtin.package:
-    name: python3-molecule
-  when:
-    - ansible_os_family == "Debian"
