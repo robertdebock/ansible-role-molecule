@@ -5,4 +5,4 @@
 repository:
   description: Install Molecule on your system.
   homepage: https://robertdebock.nl/
-  topics: molecule, ansible, molecule, tox, playbook
+  topics: molecule, development, ansible, molecule, tox, playbook
