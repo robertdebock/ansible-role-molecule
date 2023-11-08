@@ -2,9 +2,9 @@
 
 Install Molecule on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-molecule/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-molecule/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-molecule/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-molecule)|[![quality](https://img.shields.io/ansible/quality/35945)](https://galaxy.ansible.com/robertdebock/molecule)|[![downloads](https://img.shields.io/ansible/role/d/35945)](https://galaxy.ansible.com/robertdebock/molecule)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-molecule.svg)](https://github.com/robertdebock/ansible-role-molecule/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-molecule/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-molecule/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-molecule/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-molecule)|[![downloads](https://img.shields.io/ansible/role/d/24542)](https://galaxy.ansible.com/robertdebock/molecule)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-molecule.svg)](https://github.com/robertdebock/ansible-role-molecule/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -92,7 +92,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-molecule/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-molecule/issues).
 
 ## [License](#license)
 
