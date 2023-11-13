@@ -1,6 +1,12 @@
 ---
 # tasks file for molecule
 
+- name: Import assert.yml
+  ansible.builtin.import_tasks:
+    file: assert.yml
+  run_once: yes
+  delegate_to: localhost
+
 - name: Install requirements
   ansible.builtin.package:
     name: "{{ molecule_requirements }}"
