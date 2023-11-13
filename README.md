@@ -1,4 +1,4 @@
-# Ansible role [molecule](#molecule)
+# [Ansible role molecule](#molecule)
 
 Install Molecule on your system.
 
