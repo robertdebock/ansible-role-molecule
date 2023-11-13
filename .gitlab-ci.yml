@@ -15,8 +15,6 @@ molecule:
       - image: "alpine"
         tag: "latest"
       - image: "enterpriselinux"
-        tag: "8"
-      - image: "enterpriselinux"
         tag: "latest"
       - image: "fedora"
         tag: "38"
@@ -24,8 +22,6 @@ molecule:
         tag: "latest"
       - image: "fedora"
         tag: "rawhide"
-      - image: "opensuse"
-        tag: "latest"
 
 galaxy:
   script:
