@@ -51,6 +51,10 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # example:
 # molecule_extra_args: "--user"
 molecule_extra_args: ""
+
+# A list of plugins to install. (Can be empty.)
+molecule_plugins:
+  - molecule-plugins[docker]
 ```
 
 ## [Requirements](#requirements)

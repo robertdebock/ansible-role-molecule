@@ -9,5 +9,15 @@
 
 - name: Install molecule (pip)
   ansible.builtin.pip:
-    name: molecule[ansible-core,docker,lint]
+    name: molecule
+    extra_args: "{{ molecule_extra_args | default(omit) }}"
+
+# - name: Install ansible-core (pip)
+#   ansible.builtin.pip:
+#     name: ansible-core
+#     extra_args: "{{ molecule_extra_args | default(omit) }}"
+
+- name: Install molecule-plugins (pip)
+  ansible.builtin.pip:
+    name: "{{ molecule_plugins }}"
     extra_args: "{{ molecule_extra_args | default(omit) }}"
