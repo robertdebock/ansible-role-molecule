@@ -1,0 +1,15 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    "molecule" [fillcolor=yellow style=filled penwidth=3]
+    "robertdebock.bootstrap" [fillcolor=green style=filled]
+    "robertdebock.buildtools" [fillcolor=green style=filled]
+    "robertdebock.epel" [fillcolor=green style=filled]
+    "robertdebock.python_pip" [fillcolor=green style=filled]
+  }
+  "molecule" -> "robertdebock.bootstrap"
+  "molecule" -> "robertdebock.buildtools"
+  "molecule" -> "robertdebock.epel"
+  "molecule" -> "robertdebock.python_pip"
+}
